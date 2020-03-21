@@ -54,17 +54,16 @@ k = orientation
 # k = angle_approximation(k) 
 d = 6
 
-
+#d = int(input())
 
 ind1 = 50  #int(input('enter x coordinate of starting node'))  # 5
 ind2 = 30  #int(input('enter y coordinate of starting node'))  # 5
-ind = (200 - ind2,ind1,orientation)
+ind = (ind1,200 - ind2,orientation)
 
 goal1 = 150  #int(input('enter x coordinate of goal node'))  # 295
 goal2 = 150  #int(input('enter y coordinate of goal node'))  # 195 
-goal = (200 - goal2,goal1)
+goal = (goal1,200 - goal2)
 
-#d = int(input())
 
 
 cost_matrix[2*ind[0]][2*ind[1]][ind[2]] = 0
