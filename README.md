@@ -16,3 +16,6 @@ when the goal area is reached a print statement is printed out
 
 For start node in obstacle it prints yes1
 for goal node in obstacle it prints  yes2
+
+start node : - 200 - user input , user input 
+goal node : - 200 - user input , user input
