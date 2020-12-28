@@ -1,5 +1,4 @@
 # Astar_rigid
-Path planning Project 3 ENPM661
 
 This code implements A_star path planning algorithm. 
 The obstacles are directly called from the half plane equations and are seperately plotted using matplotlib.
